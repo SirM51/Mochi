@@ -75,7 +75,7 @@ async function createInitialHelpMenu(client) {
     const botName = client?.user?.username || "Bot";
     const embed = createEmbed({ 
         title: `🤖 ${botName} Help Center`,
-        description: "Your all-in-one Discord companion for moderation, economy, fun, and server management.",
+        description: "Mochi's commands list for moderation, economy, fun, and server management.",
         color: 'primary'
     });
 
@@ -158,7 +158,7 @@ async function createInitialHelpMenu(client) {
     );
 
     embed.setFooter({ 
-        text: "Made with ❤️" 
+        text: "❤️" 
     });
     embed.setTimestamp();
 
